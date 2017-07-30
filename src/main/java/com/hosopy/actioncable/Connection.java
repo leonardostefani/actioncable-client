@@ -153,7 +153,7 @@ public class Connection {
         }
     }
 
-    /*package*/ boolean isOpen() {
+    public boolean isOpen() {
         return webSocket != null && isState(State.OPEN);
     }
 

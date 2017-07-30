@@ -87,6 +87,11 @@ public class Consumer {
         connectionMonitor.start();
     }
 
+    public boolean connectionIsOpen()
+    {
+        return connection.isOpen();
+    }
+
     /**
      * Disconnect the underlying connection.
      */
